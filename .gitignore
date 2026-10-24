@@ -1,0 +1,31 @@
+# Private device state and credentials
+.local/
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+profiles.xml
+
+# Build outputs, app packages and logs
+bin/
+obj/
+dist/
+node_modules/
+__pycache__/
+*.log
+*.dll
+*.exe
+*.wgt
+*.tpk
+*.zip
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
